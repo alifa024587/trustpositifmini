@@ -258,48 +258,43 @@ async function loadData(){
 
     try{
 
-        const response = await fetch(
-            "status.json?t=" + Date.now()
+        const response =
+        await fetch(
+            "./status.json?t=" + Date.now()
         );
 
-        const data = await response.json();
+        const data =
+        await response.json();
 
-        allData = data.domains;
+        allData = data.data;
 
         document.getElementById(
             "lastupdate"
         ).innerHTML =
         "🕒 Last Update : " +
-        data.updated_at;
-
-        let blocked = 0;
-
-        data.domains.forEach(item => {
-
-            if(item.nawala.blocked){
-                blocked++;
-            }
-
-        });
+        data.last_update;
 
         document.getElementById(
             "total"
         ).innerHTML =
-        data.domains.length;
+        data.total;
 
         document.getElementById(
             "blocked"
         ).innerHTML =
-        blocked;
+        data.blocked;
 
         document.getElementById(
             "safe"
         ).innerHTML =
-        data.domains.length - blocked;
+        data.safe;
 
         renderTable(allData);
 
-    }catch(e){
+    }
+    catch(e){
+
+        console.log(e);
 
         document.getElementById(
             "lastupdate"
@@ -310,11 +305,11 @@ async function loadData(){
 
 }
 
-function renderTable(data){
+function renderTable(list){
 
     let html = "";
 
-    data.forEach(item => {
+    list.forEach(item=>{
 
         html += `
         <tr>
@@ -322,13 +317,13 @@ function renderTable(data){
             <td>${item.domain}</td>
 
             <td class="${
-                item.nawala.blocked
+                item.blocked
                 ? "blocked"
                 : "safe"
             }">
 
             ${
-                item.nawala.blocked
+                item.blocked
                 ? "🚫 BLOCKED"
                 : "✅ SAFE"
             }
@@ -348,16 +343,14 @@ function renderTable(data){
 
 function filterDomain(){
 
-    let keyword =
+    const keyword =
     document
-    .getElementById(
-        "search"
-    )
+    .getElementById("search")
     .value
     .toLowerCase();
 
-    let filtered =
-    allData.filter(item =>
+    const filtered =
+    allData.filter(item=>
 
         item.domain
         .toLowerCase()
