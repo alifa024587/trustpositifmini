@@ -1,7 +1,40 @@
 {
-    "last_update": "07-06-2026 05:20:00",
-    "total": 0,
+    "last_update": "07-06-2026 05:22:00",
+    "total": 8,
     "blocked": 0,
-    "safe": 0,
-    "data": []
+    "safe": 8,
+    "data": [
+        {
+            "domain": "minimasihdisini.com",
+            "blocked": false
+        },
+        {
+            "domain": "minipasticuan.com",
+            "blocked": false
+        },
+        {
+            "domain": "minitoto.us",
+            "blocked": false
+        },
+        {
+            "domain": "minitotobesar.site",
+            "blocked": false
+        },
+        {
+            "domain": "minitotogoku.com",
+            "blocked": false
+        },
+        {
+            "domain": "minitotosabi.id",
+            "blocked": false
+        },
+        {
+            "domain": "minitotosasuke.com",
+            "blocked": false
+        },
+        {
+            "domain": "miniyakin.com",
+            "blocked": false
+        }
+    ]
 }
