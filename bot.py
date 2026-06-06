@@ -8,6 +8,10 @@ from telegram.ext import (
 from config import BOT_TOKEN, CHAT_ID
 from nawala import check_domains
 
+from web_export import save_status
+
+import os
+
 from storage import (
     add_domain,
     delete_domain,
@@ -67,6 +71,16 @@ async def add(update: Update, context: ContextTypes.DEFAULT_TYPE):
         else "✅ NOT BLOCKED"
     )
 
+    result_all = check_domains(
+        load_domains()
+    )
+
+    save_status(
+        result_all["data"]
+    )
+
+    update_web()
+
     await update.message.reply_text(
         f"✅ Domain ditambahkan\n\n"
         f"🌐 {domain}\n"
@@ -85,6 +99,15 @@ async def delete(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     delete_domain(domain)
 
+    result_all = check_domains(
+        load_domains()
+    )
+
+    save_status(
+        result_all["data"]
+    )
+
+    update_web()
     await update.message.reply_text(
         "✅ Domain dihapus."
     )
@@ -230,6 +253,8 @@ async def cekall(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def monitor(context: ContextTypes.DEFAULT_TYPE):
 
+    global last_export
+
     try:
 
         domains = load_domains()
@@ -238,6 +263,18 @@ async def monitor(context: ContextTypes.DEFAULT_TYPE):
             return
 
         result = check_domains(domains)
+
+        current = json.dumps(
+            result["data"],
+            sort_keys=True
+        )
+
+        if current != last_export:
+
+            save_status(result["data"])
+            update_web()
+
+            last_export = current
 
         for item in result["data"]:
 
@@ -257,7 +294,6 @@ async def monitor(context: ContextTypes.DEFAULT_TYPE):
 
             else:
 
-                # hanya kirim notif kalau sebelumnya sempat nawala
                 if last_status.get(domain) == True:
 
                     await context.bot.send_message(
@@ -273,6 +309,20 @@ async def monitor(context: ContextTypes.DEFAULT_TYPE):
     except Exception as e:
         print(e)
 
+def update_web():
+
+    os.system("git add status.json")
+
+    commit = os.system(
+        'git diff --cached --quiet'
+    )
+
+    if commit != 0:
+        os.system(
+            'git commit -m "auto update"'
+        )
+        os.system("git push")
+        
 def main():
 
     app = (
