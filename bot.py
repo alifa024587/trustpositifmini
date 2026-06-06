@@ -13,13 +13,13 @@ from web_export import save_status
 import os
 import json
 
-from telegram import Update
-from telegram.ext import (
-    Application,
-    CommandHandler,
-    ContextTypes
+from storage import (
+    add_domain,
+    delete_domain,
+    load_domains
 )
 
+last_export = ""
 last_status = {}
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
