@@ -11,11 +11,13 @@ from nawala import check_domains
 from web_export import save_status
 
 import os
+import json
 
-from storage import (
-    add_domain,
-    delete_domain,
-    load_domains
+from telegram import Update
+from telegram.ext import (
+    Application,
+    CommandHandler,
+    ContextTypes
 )
 
 last_status = {}
