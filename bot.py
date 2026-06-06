@@ -306,8 +306,9 @@ async def monitor(context: ContextTypes.DEFAULT_TYPE):
 
             last_status[domain] = blocked
 
-    except Exception as e:
-        print(e)
+    except Exception:
+        import traceback
+        traceback.print_exc()
 
 def update_web():
 
