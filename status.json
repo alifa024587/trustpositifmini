@@ -1,40 +1,64 @@
 {
-    "last_update": "07-06-2026 05:22:00",
-    "total": 8,
-    "blocked": 0,
-    "safe": 8,
-    "data": [
+    "last_update": "2026-06-07 10:48:54",
+    "next_update": "2026-06-07 10:50:54",
+    "total_domains": 8,
+    "total_blocked": 0,
+    "domains": [
         {
             "domain": "minimasihdisini.com",
-            "blocked": false
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-07 10:48:54"
         },
         {
             "domain": "minipasticuan.com",
-            "blocked": false
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-07 10:48:54"
         },
         {
             "domain": "minitoto.us",
-            "blocked": false
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-07 10:48:54"
         },
         {
             "domain": "minitotobesar.site",
-            "blocked": false
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-07 10:48:54"
         },
         {
             "domain": "minitotogoku.com",
-            "blocked": false
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-07 10:48:54"
         },
         {
             "domain": "minitotosabi.id",
-            "blocked": false
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-07 10:48:54"
         },
         {
             "domain": "minitotosasuke.com",
-            "blocked": false
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-07 10:48:54"
         },
         {
             "domain": "miniyakin.com",
-            "blocked": false
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-07 10:48:54"
         }
     ]
 }
