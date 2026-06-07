@@ -7,20 +7,16 @@ from telegram.ext import (
 
 from config import BOT_TOKEN, CHAT_ID
 from nawala import check_domains
-
 from web_export import save_status
+
+from storage import (
+    add_domain,
+    delete_domain,
+    load_domains
+)
 
 import os
 import json
-
-from datetime import datetime
-
-from telegram import Update
-from telegram.ext import (
-    Application,
-    CommandHandler,
-    ContextTypes
-)
 
 last_export = ""
 last_status = {}
