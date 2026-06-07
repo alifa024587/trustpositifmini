@@ -13,10 +13,13 @@ from web_export import save_status
 import os
 import json
 
-from storage import (
-    add_domain,
-    delete_domain,
-    load_domains
+from datetime import datetime
+
+from telegram import Update
+from telegram.ext import (
+    Application,
+    CommandHandler,
+    ContextTypes
 )
 
 last_export = ""
@@ -266,17 +269,21 @@ async def monitor(context: ContextTypes.DEFAULT_TYPE):
 
         result = check_domains(domains)
 
+        print(
+            f"[{datetime.now().strftime('%H:%M:%S')}] "
+            f"Checked {len(domains)} domains"
+        )
+
         current = json.dumps(
             result["data"],
             sort_keys=True
         )
 
-        if current != last_export:
+        save_status(result["data"])
 
-            save_status(result["data"])
-            update_web()
+        update_web()
 
-            last_export = current
+        last_export = current
 
         for item in result["data"]:
 
@@ -316,15 +323,15 @@ def update_web():
 
     os.system("git add status.json")
 
-    commit = os.system(
-        'git diff --cached --quiet'
-    )
+    if os.system("git diff --cached --quiet") != 0:
 
-    if commit != 0:
         os.system(
             'git commit -m "auto update"'
         )
-        os.system("git push")
+
+        os.system(
+            "git push origin main"
+        )
         
 def main():
 
