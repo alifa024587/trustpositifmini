@@ -1,29 +1,62 @@
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 
 
 def save_status(data):
 
+    now = datetime.now()
+
+    total = len(data)
     blocked = 0
 
-    for item in data:
-        if item["nawala"]["blocked"]:
-            blocked += 1
-
     output = {
-        "last_update": datetime.now().strftime("%d-%m-%Y %H:%M:%S"),
-        "total": len(data),
-        "blocked": blocked,
-        "safe": len(data) - blocked,
-        "data": []
+        "last_update": now.strftime(
+            "%Y-%m-%d %H:%M:%S"
+        ),
+
+        "next_update": (
+            now + timedelta(minutes=2)
+        ).strftime(
+            "%Y-%m-%d %H:%M:%S"
+        ),
+
+        "total_domains": total,
+        "total_blocked": 0,
+
+        "domains": []
     }
 
     for item in data:
 
-        output["data"].append({
-            "domain": item["domain"],
-            "blocked": item["nawala"]["blocked"]
+        is_blocked = item["nawala"]["blocked"]
+
+        if is_blocked:
+            blocked += 1
+
+        output["domains"].append({
+
+            "domain":
+                item["domain"],
+
+            "nawala":
+                is_blocked,
+
+            "network":
+                False,
+
+            "status":
+                "BLOCKED"
+                if is_blocked
+                else "NORMAL",
+
+            "checked_at":
+                datetime.now().strftime(
+                    "%Y-%m-%d %H:%M:%S"
+                )
+
         })
+
+    output["total_blocked"] = blocked
 
     with open(
         "status.json",
