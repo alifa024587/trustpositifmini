@@ -1,6 +1,6 @@
 {
-    "last_update": "2026-06-07 10:48:54",
-    "next_update": "2026-06-07 10:50:54",
+    "last_update": "2026-06-07 10:49:58",
+    "next_update": "2026-06-07 10:51:58",
     "total_domains": 8,
     "total_blocked": 0,
     "domains": [
@@ -9,56 +9,56 @@
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-07 10:48:54"
+            "checked_at": "2026-06-07 10:49:58"
         },
         {
             "domain": "minipasticuan.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-07 10:48:54"
+            "checked_at": "2026-06-07 10:49:58"
         },
         {
             "domain": "minitoto.us",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-07 10:48:54"
+            "checked_at": "2026-06-07 10:49:58"
         },
         {
             "domain": "minitotobesar.site",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-07 10:48:54"
+            "checked_at": "2026-06-07 10:49:58"
         },
         {
             "domain": "minitotogoku.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-07 10:48:54"
+            "checked_at": "2026-06-07 10:49:58"
         },
         {
             "domain": "minitotosabi.id",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-07 10:48:54"
+            "checked_at": "2026-06-07 10:49:58"
         },
         {
             "domain": "minitotosasuke.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-07 10:48:54"
+            "checked_at": "2026-06-07 10:49:58"
         },
         {
             "domain": "miniyakin.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-07 10:48:54"
+            "checked_at": "2026-06-07 10:49:58"
         }
     ]
 }
