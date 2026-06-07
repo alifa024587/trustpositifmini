@@ -266,51 +266,47 @@ async function loadData(){
 
     try{
 
-        const res =
-        await fetch(
-            "./status.json?t=" +
-            Date.now()
+        const res = await fetch(
+            "./status.json?v=" + Date.now(),
+            {
+                cache: "no-store"
+            }
         );
 
-        const data =
-        await res.json();
+        if(!res.ok){
+            throw new Error("status.json not found");
+        }
 
-        allData =
-        data.domains;
+        const data = await res.json();
 
-        document
-        .getElementById(
-        "total"
+        allData = data.domains;
+
+        document.getElementById(
+            "total"
         ).innerHTML =
         data.total_domains;
 
-        document
-        .getElementById(
-        "blocked"
+        document.getElementById(
+            "blocked"
         ).innerHTML =
         data.total_blocked;
 
-        document
-        .getElementById(
-        "lasttime"
+        document.getElementById(
+            "lasttime"
         ).innerHTML =
         data.last_update;
 
-        document
-        .getElementById(
-        "nexttime"
+        document.getElementById(
+            "nexttime"
         ).innerHTML =
         data.next_update;
 
-        renderTable(
-        allData
-        );
+        renderTable(allData);
 
     }
-
     catch(err){
 
-        console.log(err);
+        console.log("Load Error:", err);
 
     }
 
@@ -322,66 +318,64 @@ function renderTable(list){
 
     list.forEach(item=>{
 
+        const status =
+        (item.nawala || item.network)
+        ? "BLOCKED"
+        : "SAFE";
+
         html += `
         <tr>
 
+        <td>${item.domain}</td>
+
         <td>
-        ${item.domain}
+            <span class="${
+                item.nawala
+                ? "badge-block"
+                : "badge-safe"
+            }">
+            ${
+                item.nawala
+                ? "BLOCK"
+                : "SAFE"
+            }
+            </span>
         </td>
 
         <td>
-        <span class="${
-        item.nawala
-        ? "badge-block"
-        : "badge-safe"
-        }">
-        ${
-        item.nawala
-        ? "BLOCK"
-        : "SAFE"
-        }
-        </span>
+            <span class="${
+                item.network
+                ? "badge-block"
+                : "badge-safe"
+            }">
+            ${
+                item.network
+                ? "BLOCK"
+                : "SAFE"
+            }
+            </span>
         </td>
 
         <td>
-        <span class="${
-        item.network
-        ? "badge-block"
-        : "badge-safe"
-        }">
-        ${
-        item.network
-        ? "BLOCK"
-        : "SAFE"
-        }
-        </span>
+            <span class="${
+                status == "BLOCKED"
+                ? "badge-block"
+                : "badge-safe"
+            }">
+            ${status}
+            </span>
         </td>
 
-        <td>
-        <span class="${
-        item.status ==
-        "BLOCKED"
-        ? "badge-block"
-        : "badge-safe"
-        }">
-        ${item.status}
-        </span>
-        </td>
-
-        <td>
-        ${item.checked_at}
-        </td>
+        <td>${item.checked_at}</td>
 
         </tr>
         `;
 
     });
 
-    document
-    .getElementById(
-    "tbody"
-    ).innerHTML =
-    html;
+    document.getElementById(
+        "tbody"
+    ).innerHTML = html;
 
 }
 
