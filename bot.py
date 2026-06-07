@@ -318,17 +318,22 @@ async def monitor(context: ContextTypes.DEFAULT_TYPE):
 
 def update_web():
 
+    print("Updating GitHub...")
+
     os.system("git add status.json")
 
-    if os.system("git diff --cached --quiet") != 0:
+    commit = os.system(
+        'git diff --cached --quiet'
+    )
 
+    if commit != 0:
         os.system(
             'git commit -m "auto update"'
         )
-
-        os.system(
-            "git push origin main"
-        )
+        os.system("git push")
+        print("GitHub updated.")
+    else:
+        print("No changes.")
         
 def main():
 
