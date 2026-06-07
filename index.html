@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +7,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>TrustPositif Monitor</title>
+<title>Nawala Checker Minitoto</title>
 
 <style>
 
@@ -18,109 +19,102 @@
 }
 
 body{
-    background:#050816;
+    background:
+    radial-gradient(circle at top left,#003b46 0%,transparent 40%),
+    radial-gradient(circle at top right,#2d0036 0%,transparent 40%),
+    #020617;
     color:white;
-    padding:30px;
+    padding:25px;
 }
 
 .container{
-    max-width:1200px;
+    max-width:1400px;
     margin:auto;
 }
 
 h1{
     text-align:center;
-    color:#00f7ff;
+    color:#19f9ff;
+    font-size:48px;
+    margin-bottom:20px;
     text-shadow:
-        0 0 10px #00f7ff,
-        0 0 20px #00f7ff,
-        0 0 40px #00f7ff;
-    margin-bottom:8px;
+    0 0 10px #19f9ff,
+    0 0 20px #19f9ff,
+    0 0 40px #19f9ff;
 }
 
-.subtitle{
+.live{
     text-align:center;
-    color:#7dd3fc;
-    margin-bottom:30px;
+    color:#00ff88;
+    margin-bottom:25px;
+    font-size:22px;
 }
 
 .cards{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:20px;
+    grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+    gap:18px;
     margin-bottom:25px;
 }
 
 .card{
-    background:#0b1120;
-    border:1px solid #00f7ff44;
-    border-radius:15px;
-    padding:20px;
+    background:rgba(10,20,40,.75);
+    border:1px solid #00eaff33;
+    border-radius:18px;
+    padding:25px;
+    text-align:center;
     box-shadow:
-        0 0 15px #00f7ff22,
-        inset 0 0 10px #00f7ff11;
+    0 0 20px #00f7ff11,
+    inset 0 0 15px #00f7ff11;
 }
 
 .card-title{
-    color:#94a3b8;
-    font-size:14px;
+    color:#b7e7ff;
+    font-size:24px;
+    margin-bottom:18px;
 }
 
 .card-value{
-    font-size:34px;
-    margin-top:8px;
+    font-size:38px;
     font-weight:bold;
 }
 
-#total{
-    color:#00f7ff;
-    text-shadow:0 0 10px #00f7ff;
-}
-
+#total,
 #blocked{
-    color:#ff3b6b;
-    text-shadow:0 0 10px #ff3b6b;
+    color:#19f9ff;
+    text-shadow:0 0 15px #19f9ff;
 }
 
-#safe{
-    color:#00ff88;
-    text-shadow:0 0 10px #00ff88;
-}
-
-#lastupdate{
-    margin-bottom:20px;
-    padding:14px;
-    border-radius:10px;
-    background:#08111f;
-    border:1px solid #00f7ff44;
-    color:#7dd3fc;
-    box-shadow:0 0 12px #00f7ff22;
-}
-
-.search-box{
-    margin-bottom:20px;
-}
-
-.search-box input{
-    width:100%;
-    padding:14px;
-    background:#111827;
+#lasttime,
+#nexttime{
     color:white;
-    border:none;
-    outline:none;
-    border-radius:10px;
-    border:1px solid #00f7ff55;
-    font-size:16px;
+    font-size:24px;
 }
 
-.search-box input:focus{
-    box-shadow:0 0 15px #00f7ff88;
+.search{
+    margin-bottom:20px;
+}
+
+.search input{
+    width:100%;
+    padding:16px;
+    border-radius:14px;
+    border:1px solid #00f7ff44;
+    background:#081426;
+    color:white;
+    outline:none;
+    font-size:18px;
+}
+
+.search input:focus{
+    box-shadow:0 0 15px #00f7ff66;
 }
 
 .table-box{
-    background:#0b1120;
-    border-radius:15px;
     overflow:hidden;
+    border-radius:18px;
+    background:rgba(5,10,30,.75);
     border:1px solid #00f7ff33;
 }
 
@@ -130,37 +124,46 @@ table{
 }
 
 th{
-    background:#08111f;
-    color:#00f7ff;
-    padding:15px;
+    padding:18px;
+    color:#00ffff;
     text-align:left;
+    background:#081426;
 }
 
 td{
-    padding:14px;
-    border-bottom:1px solid #1e293b;
+    padding:18px;
+    border-top:1px solid #20324d;
 }
 
 tr:hover{
-    background:#111827;
+    background:#0d1d35;
 }
 
-.blocked{
-    color:#ff4d6d;
+.badge-safe{
+    display:inline-block;
+    background:#00ff88;
+    color:black;
+    padding:8px 18px;
+    border-radius:20px;
     font-weight:bold;
-    text-shadow:0 0 8px #ff4d6d;
+    box-shadow:0 0 15px #00ff88;
 }
 
-.safe{
-    color:#00ff88;
+.badge-block{
+    display:inline-block;
+    background:#ff3366;
+    color:white;
+    padding:8px 18px;
+    border-radius:20px;
     font-weight:bold;
-    text-shadow:0 0 8px #00ff88;
+    box-shadow:0 0 15px #ff3366;
 }
 
 .footer{
     margin-top:25px;
     text-align:center;
-    color:#64748b;
+    color:#8bb7d8;
+    font-size:18px;
 }
 
 </style>
@@ -171,10 +174,10 @@ tr:hover{
 
 <div class="container">
 
-<h1>⚡ TRUSTPOSITIF MONITOR ⚡</h1>
+<h1>🚀 Nawala Checker Minitoto</h1>
 
-<div class="subtitle">
-Realtime Monitoring Domain TrustPositif Indonesia
+<div class="live">
+🟢 LIVE MONITORING ACTIVE
 </div>
 
 <div class="cards">
@@ -190,7 +193,7 @@ TOTAL DOMAIN
 
 <div class="card">
 <div class="card-title">
-BLOCKED
+TOTAL BLOCKED
 </div>
 <div class="card-value" id="blocked">
 0
@@ -199,28 +202,31 @@ BLOCKED
 
 <div class="card">
 <div class="card-title">
-SAFE
+LAST UPDATE
 </div>
-<div class="card-value" id="safe">
-0
+<div class="card-value" id="lasttime">
+-
+</div>
+</div>
+
+<div class="card">
+<div class="card-title">
+NEXT CHECK
+</div>
+<div class="card-value" id="nexttime">
+-
 </div>
 </div>
 
 </div>
 
-<div id="lastupdate">
-🕒 Last Update : Loading...
-</div>
-
-<div class="search-box">
-
+<div class="search">
 <input
-type="text"
 id="search"
+type="text"
 placeholder="🔍 Cari domain..."
 onkeyup="filterDomain()"
 >
-
 </div>
 
 <div class="table-box">
@@ -230,8 +236,11 @@ onkeyup="filterDomain()"
 <thead>
 
 <tr>
-<th>DOMAIN</th>
-<th>STATUS</th>
+<th>Domain</th>
+<th>Nawala</th>
+<th>Network</th>
+<th>Status</th>
+<th>Checked At</th>
 </tr>
 
 </thead>
@@ -245,7 +254,7 @@ onkeyup="filterDomain()"
 </div>
 
 <div class="footer">
-Powered by Telegram Bot • GitHub • Cloudflare Pages
+⚡ Auto Refresh 10 Detik • Cloudflare Pages • Nawala API
 </div>
 
 </div>
@@ -258,48 +267,51 @@ async function loadData(){
 
     try{
 
-        const response =
+        const res =
         await fetch(
-            "./status.json?t=" + Date.now()
+            "./status.json?t=" +
+            Date.now()
         );
 
         const data =
-        await response.json();
+        await res.json();
 
-        allData = data.data;
+        allData =
+        data.domains;
 
-        document.getElementById(
-            "lastupdate"
+        document
+        .getElementById(
+        "total"
         ).innerHTML =
-        "🕒 Last Update : " +
+        data.total_domains;
+
+        document
+        .getElementById(
+        "blocked"
+        ).innerHTML =
+        data.total_blocked;
+
+        document
+        .getElementById(
+        "lasttime"
+        ).innerHTML =
         data.last_update;
 
-        document.getElementById(
-            "total"
+        document
+        .getElementById(
+        "nexttime"
         ).innerHTML =
-        data.total;
+        data.next_update;
 
-        document.getElementById(
-            "blocked"
-        ).innerHTML =
-        data.blocked;
-
-        document.getElementById(
-            "safe"
-        ).innerHTML =
-        data.safe;
-
-        renderTable(allData);
+        renderTable(
+        allData
+        );
 
     }
-    catch(e){
 
-        console.log(e);
+    catch(err){
 
-        document.getElementById(
-            "lastupdate"
-        ).innerHTML =
-        "❌ Gagal memuat status.json";
+        console.log(err);
 
     }
 
@@ -314,30 +326,63 @@ function renderTable(list){
         html += `
         <tr>
 
-            <td>${item.domain}</td>
+        <td>
+        ${item.domain}
+        </td>
 
-            <td class="${
-                item.blocked
-                ? "blocked"
-                : "safe"
-            }">
+        <td>
+        <span class="${
+        item.nawala
+        ? "badge-block"
+        : "badge-safe"
+        }">
+        ${
+        item.nawala
+        ? "BLOCK"
+        : "SAFE"
+        }
+        </span>
+        </td>
 
-            ${
-                item.blocked
-                ? "🚫 BLOCKED"
-                : "✅ SAFE"
-            }
+        <td>
+        <span class="${
+        item.network
+        ? "badge-block"
+        : "badge-safe"
+        }">
+        ${
+        item.network
+        ? "BLOCK"
+        : "SAFE"
+        }
+        </span>
+        </td>
 
-            </td>
+        <td>
+        <span class="${
+        item.status ==
+        "BLOCKED"
+        ? "badge-block"
+        : "badge-safe"
+        }">
+        ${item.status}
+        </span>
+        </td>
+
+        <td>
+        ${item.checked_at}
+        </td>
 
         </tr>
         `;
 
     });
 
-    document.getElementById(
-        "tbody"
-    ).innerHTML = html;
+    document
+    .getElementById(
+    "tbody"
+    ).innerHTML =
+    html;
 
 }
 
@@ -345,28 +390,35 @@ function filterDomain(){
 
     const keyword =
     document
-    .getElementById("search")
+    .getElementById(
+    "search"
+    )
     .value
     .toLowerCase();
 
     const filtered =
-    allData.filter(item=>
+    allData.filter(
+    item=>
 
-        item.domain
-        .toLowerCase()
-        .includes(keyword)
+    item.domain
+    .toLowerCase()
+    .includes(
+    keyword
+    )
 
     );
 
-    renderTable(filtered);
+    renderTable(
+    filtered
+    );
 
 }
 
 loadData();
 
 setInterval(
-    loadData,
-    30000
+loadData,
+10000
 );
 
 </script>
@@ -374,4 +426,4 @@ setInterval(
 </body>
 
 </html>
-
+```
