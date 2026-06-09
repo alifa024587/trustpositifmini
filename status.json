@@ -1,6 +1,6 @@
 {
-    "last_update": "2026-06-09 20:01:27",
-    "next_update": "2026-06-09 20:03:27",
+    "last_update": "2026-06-09 20:03:28",
+    "next_update": "2026-06-09 20:05:28",
     "total_domains": 7,
     "total_blocked": 0,
     "domains": [
@@ -9,49 +9,49 @@
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-09 20:01:27"
+            "checked_at": "2026-06-09 20:03:28"
         },
         {
             "domain": "minipasticuan.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-09 20:01:27"
+            "checked_at": "2026-06-09 20:03:28"
         },
         {
             "domain": "minitoto.us",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-09 20:01:27"
+            "checked_at": "2026-06-09 20:03:28"
         },
         {
             "domain": "minitotobesar.site",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-09 20:01:27"
+            "checked_at": "2026-06-09 20:03:28"
         },
         {
             "domain": "minitotogoku.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-09 20:01:27"
+            "checked_at": "2026-06-09 20:03:28"
         },
         {
             "domain": "minitotosasuke.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-09 20:01:27"
+            "checked_at": "2026-06-09 20:03:28"
         },
         {
             "domain": "miniyakin.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-09 20:01:27"
+            "checked_at": "2026-06-09 20:03:28"
         }
     ]
 }
