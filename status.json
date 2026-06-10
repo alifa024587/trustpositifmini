@@ -1,7 +1,7 @@
 {
-    "last_update": "2026-06-10 21:25:53",
-    "next_update": "2026-06-10 21:27:53",
-    "total_domains": 8,
+    "last_update": "2026-06-10 21:25:58",
+    "next_update": "2026-06-10 21:27:58",
+    "total_domains": 9,
     "total_blocked": 0,
     "domains": [
         {
@@ -9,56 +9,63 @@
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-10 21:25:53"
+            "checked_at": "2026-06-10 21:25:58"
         },
         {
             "domain": "minipasticuan.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-10 21:25:53"
+            "checked_at": "2026-06-10 21:25:58"
         },
         {
             "domain": "minitotobesar.site",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-10 21:25:53"
+            "checked_at": "2026-06-10 21:25:58"
         },
         {
             "domain": "minitotogoku.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-10 21:25:53"
+            "checked_at": "2026-06-10 21:25:58"
         },
         {
             "domain": "minitotosasuke.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-10 21:25:53"
+            "checked_at": "2026-06-10 21:25:58"
         },
         {
             "domain": "miniyakin.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-10 21:25:53"
+            "checked_at": "2026-06-10 21:25:58"
         },
         {
             "domain": "predikminibae.site",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-10 21:25:53"
+            "checked_at": "2026-06-10 21:25:58"
+        },
+        {
+            "domain": "predikminigebi.site",
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-10 21:25:58"
         },
         {
             "domain": "prediksiminigoks.site",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-10 21:25:53"
+            "checked_at": "2026-06-10 21:25:58"
         }
     ]
 }
