@@ -14,6 +14,11 @@ def _get_csrf():
         headers=HEADERS
     )
 
+    r = session.get(
+        "https://trustpositif.id/checker",
+        headers=HEADERS
+    )
+
     r.raise_for_status()
 
     m = re.search(
@@ -35,9 +40,9 @@ def check_domains(domains):
     hasil = []
 
     # Pecah menjadi batch 20 domain
-    for i in range(0, len(domains), 20):
+    for i in range(0, len(domains), 5):
 
-        batch = domains[i:i + 20]
+        batch = domains[i:i + 5]
 
         csrf = _get_csrf()
 
@@ -56,7 +61,12 @@ def check_domains(domains):
             }
         )
 
-        r.raise_for_status()
+        print("STATUS =", r.status_code)
+        print("BODY =")
+        print(r.text)
+
+        if r.status_code != 200:
+            return {"data": hasil}
 
         data = r.json()
 
