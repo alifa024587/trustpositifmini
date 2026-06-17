@@ -1,7 +1,7 @@
 {
-    "last_update": "2026-06-17 21:35:57",
-    "next_update": "2026-06-17 21:37:57",
-    "total_domains": 8,
+    "last_update": "2026-06-17 21:37:03",
+    "next_update": "2026-06-17 21:39:03",
+    "total_domains": 9,
     "total_blocked": 0,
     "domains": [
         {
@@ -9,56 +9,63 @@
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:35:57"
+            "checked_at": "2026-06-17 21:37:03"
         },
         {
             "domain": "gandacuan.id",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:35:57"
+            "checked_at": "2026-06-17 21:37:03"
         },
         {
             "domain": "gandacuan.io",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:35:57"
+            "checked_at": "2026-06-17 21:37:03"
+        },
+        {
+            "domain": "minimantul.com",
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-17 21:37:03"
         },
         {
             "domain": "minimasihdisini.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:35:57"
+            "checked_at": "2026-06-17 21:37:03"
         },
         {
             "domain": "minipasticuan.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:35:57"
+            "checked_at": "2026-06-17 21:37:03"
         },
         {
             "domain": "minitotobesar.site",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:35:57"
+            "checked_at": "2026-06-17 21:37:03"
         },
         {
             "domain": "minitotogoku.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:35:57"
+            "checked_at": "2026-06-17 21:37:03"
         },
         {
             "domain": "minitotosasuke.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:35:57"
+            "checked_at": "2026-06-17 21:37:03"
         }
     ]
 }
