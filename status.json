@@ -1,7 +1,7 @@
 {
-    "last_update": "2026-06-17 21:29:44",
-    "next_update": "2026-06-17 21:31:44",
-    "total_domains": 31,
+    "last_update": "2026-06-17 21:29:56",
+    "next_update": "2026-06-17 21:31:56",
+    "total_domains": 30,
     "total_blocked": 0,
     "domains": [
         {
@@ -9,217 +9,210 @@
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
-        },
-        {
-            "domain": "chws.predikminibae.site",
-            "nawala": false,
-            "network": false,
-            "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
+            "checked_at": "2026-06-17 21:29:56"
         },
         {
             "domain": "jpmini789.site",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
+            "checked_at": "2026-06-17 21:29:56"
         },
         {
             "domain": "jpmini889.site",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
+            "checked_at": "2026-06-17 21:29:56"
         },
         {
             "domain": "jpmini999.site",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
+            "checked_at": "2026-06-17 21:29:56"
         },
         {
             "domain": "jpminigoks.site",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
+            "checked_at": "2026-06-17 21:29:56"
         },
         {
             "domain": "minimasihdisini.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
+            "checked_at": "2026-06-17 21:29:56"
         },
         {
             "domain": "minipasticuan.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
+            "checked_at": "2026-06-17 21:29:56"
         },
         {
             "domain": "minitotobesar.site",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
+            "checked_at": "2026-06-17 21:29:56"
         },
         {
             "domain": "minitotogoku.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
+            "checked_at": "2026-06-17 21:29:56"
         },
         {
             "domain": "minitotosasuke.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
+            "checked_at": "2026-06-17 21:29:56"
         },
         {
             "domain": "nstr.predikminigebi.site",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
-        },
-        {
-            "domain": "panduanminigoks.site",
-            "nawala": false,
-            "network": false,
-            "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
-        },
-        {
-            "domain": "predikminibae.site",
-            "nawala": false,
-            "network": false,
-            "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
-        },
-        {
-            "domain": "predikminigebi.site",
-            "nawala": false,
-            "network": false,
-            "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
-        },
-        {
-            "domain": "prediksiminif.site",
-            "nawala": false,
-            "network": false,
-            "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
-        },
-        {
-            "domain": "prediksiminigoks.site",
-            "nawala": false,
-            "network": false,
-            "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
-        },
-        {
-            "domain": "quickinfo.predikminibae.site",
-            "nawala": false,
-            "network": false,
-            "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
-        },
-        {
-            "domain": "son.jpmini999.site",
-            "nawala": false,
-            "network": false,
-            "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
-        },
-        {
-            "domain": "wly.jpmini999.site",
-            "nawala": false,
-            "network": false,
-            "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
-        },
-        {
-            "domain": "dahsyat.panduanmini88.site",
-            "nawala": false,
-            "network": false,
-            "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
-        },
-        {
-            "domain": "gandacuan.com",
-            "nawala": false,
-            "network": false,
-            "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
-        },
-        {
-            "domain": "gandacuan.id",
-            "nawala": false,
-            "network": false,
-            "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
-        },
-        {
-            "domain": "gandacuan.io",
-            "nawala": false,
-            "network": false,
-            "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
-        },
-        {
-            "domain": "gokil.panduanmini88.site",
-            "nawala": false,
-            "network": false,
-            "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
-        },
-        {
-            "domain": "main.panduanmini288.site",
-            "nawala": false,
-            "network": false,
-            "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
-        },
-        {
-            "domain": "minitotopauss.firebaseapp.com",
-            "nawala": false,
-            "network": false,
-            "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
+            "checked_at": "2026-06-17 21:29:56"
         },
         {
             "domain": "panduanmini12.site",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
+            "checked_at": "2026-06-17 21:29:56"
+        },
+        {
+            "domain": "panduanminigoks.site",
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-17 21:29:56"
+        },
+        {
+            "domain": "predikminibae.site",
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-17 21:29:56"
+        },
+        {
+            "domain": "predikminigebi.site",
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-17 21:29:56"
+        },
+        {
+            "domain": "prediksiminif.site",
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-17 21:29:56"
+        },
+        {
+            "domain": "prediksiminigoks.site",
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-17 21:29:56"
+        },
+        {
+            "domain": "quickinfo.predikminibae.site",
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-17 21:29:56"
+        },
+        {
+            "domain": "son.jpmini999.site",
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-17 21:29:56"
+        },
+        {
+            "domain": "wly.jpmini999.site",
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-17 21:29:56"
+        },
+        {
+            "domain": "dahsyat.panduanmini88.site",
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-17 21:29:56"
+        },
+        {
+            "domain": "gandacuan.com",
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-17 21:29:56"
+        },
+        {
+            "domain": "gandacuan.id",
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-17 21:29:56"
+        },
+        {
+            "domain": "gandacuan.io",
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-17 21:29:56"
+        },
+        {
+            "domain": "gokil.panduanmini88.site",
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-17 21:29:56"
+        },
+        {
+            "domain": "main.panduanmini288.site",
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-17 21:29:56"
+        },
+        {
+            "domain": "minitotopauss.firebaseapp.com",
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-17 21:29:56"
         },
         {
             "domain": "panduanmini28.site",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
+            "checked_at": "2026-06-17 21:29:56"
         },
         {
             "domain": "panduanmini288.site",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
+            "checked_at": "2026-06-17 21:29:56"
         },
         {
             "domain": "panduanmini88.site",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-17 21:29:44"
+            "checked_at": "2026-06-17 21:29:56"
         }
     ]
 }
