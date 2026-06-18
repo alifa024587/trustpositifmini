@@ -1,92 +1,85 @@
 {
-    "last_update": "2026-06-18 10:59:11",
-    "next_update": "2026-06-18 11:01:11",
-    "total_domains": 12,
-    "total_blocked": 1,
+    "last_update": "2026-06-18 10:59:41",
+    "next_update": "2026-06-18 11:01:41",
+    "total_domains": 11,
+    "total_blocked": 0,
     "domains": [
         {
             "domain": "gandacuan.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 10:59:11"
+            "checked_at": "2026-06-18 10:59:41"
         },
         {
             "domain": "gandacuan.id",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 10:59:11"
+            "checked_at": "2026-06-18 10:59:41"
         },
         {
             "domain": "gandacuan.io",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 10:59:11"
+            "checked_at": "2026-06-18 10:59:41"
         },
         {
             "domain": "minibisa.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 10:59:11"
+            "checked_at": "2026-06-18 10:59:41"
         },
         {
             "domain": "miniblessing.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 10:59:11"
-        },
-        {
-            "domain": "minimantul.com",
-            "nawala": true,
-            "network": false,
-            "status": "BLOCKED",
-            "checked_at": "2026-06-18 10:59:11"
+            "checked_at": "2026-06-18 10:59:41"
         },
         {
             "domain": "minimasihdisini.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 10:59:11"
+            "checked_at": "2026-06-18 10:59:41"
         },
         {
             "domain": "minipasticuan.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 10:59:11"
+            "checked_at": "2026-06-18 10:59:41"
         },
         {
             "domain": "minipikapika.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 10:59:11"
+            "checked_at": "2026-06-18 10:59:41"
         },
         {
             "domain": "minitotobesar.site",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 10:59:11"
+            "checked_at": "2026-06-18 10:59:41"
         },
         {
             "domain": "minitotogoku.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 10:59:11"
+            "checked_at": "2026-06-18 10:59:41"
         },
         {
             "domain": "minitotosasuke.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 10:59:11"
+            "checked_at": "2026-06-18 10:59:41"
         }
     ]
 }
