@@ -1,7 +1,7 @@
 {
-    "last_update": "2026-06-18 11:00:53",
-    "next_update": "2026-06-18 11:02:53",
-    "total_domains": 12,
+    "last_update": "2026-06-18 11:01:15",
+    "next_update": "2026-06-18 11:03:15",
+    "total_domains": 13,
     "total_blocked": 0,
     "domains": [
         {
@@ -9,84 +9,91 @@
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 11:00:53"
+            "checked_at": "2026-06-18 11:01:15"
         },
         {
             "domain": "gandacuan.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 11:00:53"
+            "checked_at": "2026-06-18 11:01:15"
         },
         {
             "domain": "gandacuan.id",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 11:00:53"
+            "checked_at": "2026-06-18 11:01:15"
         },
         {
             "domain": "gandacuan.io",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 11:00:53"
+            "checked_at": "2026-06-18 11:01:15"
+        },
+        {
+            "domain": "mavinhouseevents.com",
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-18 11:01:15"
         },
         {
             "domain": "minibisa.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 11:00:53"
+            "checked_at": "2026-06-18 11:01:15"
         },
         {
             "domain": "miniblessing.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 11:00:53"
+            "checked_at": "2026-06-18 11:01:15"
         },
         {
             "domain": "minimasihdisini.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 11:00:53"
+            "checked_at": "2026-06-18 11:01:15"
         },
         {
             "domain": "minipasticuan.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 11:00:53"
+            "checked_at": "2026-06-18 11:01:15"
         },
         {
             "domain": "minipikapika.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 11:00:53"
+            "checked_at": "2026-06-18 11:01:15"
         },
         {
             "domain": "minitotobesar.site",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 11:00:53"
+            "checked_at": "2026-06-18 11:01:15"
         },
         {
             "domain": "minitotogoku.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 11:00:53"
+            "checked_at": "2026-06-18 11:01:15"
         },
         {
             "domain": "minitotosasuke.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-18 11:00:53"
+            "checked_at": "2026-06-18 11:01:15"
         }
     ]
 }
