@@ -1,106 +1,113 @@
 {
-    "last_update": "2026-06-19 14:55:00",
-    "next_update": "2026-06-19 14:57:00",
-    "total_domains": 14,
+    "last_update": "2026-06-19 14:55:06",
+    "next_update": "2026-06-19 14:57:06",
+    "total_domains": 15,
     "total_blocked": 0,
     "domains": [
+        {
+            "domain": "buktijp.panelgandacuan.com",
+            "nawala": false,
+            "network": false,
+            "status": "NORMAL",
+            "checked_at": "2026-06-19 14:55:06"
+        },
         {
             "domain": "gandacuan.cc",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-19 14:55:00"
+            "checked_at": "2026-06-19 14:55:06"
         },
         {
             "domain": "gandacuan.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-19 14:55:00"
+            "checked_at": "2026-06-19 14:55:06"
         },
         {
             "domain": "gandacuan.id",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-19 14:55:00"
+            "checked_at": "2026-06-19 14:55:06"
         },
         {
             "domain": "gandacuan.io",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-19 14:55:00"
+            "checked_at": "2026-06-19 14:55:06"
         },
         {
             "domain": "mavinhouseevents.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-19 14:55:00"
+            "checked_at": "2026-06-19 14:55:06"
         },
         {
             "domain": "minibisa.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-19 14:55:00"
+            "checked_at": "2026-06-19 14:55:06"
         },
         {
             "domain": "miniblessing.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-19 14:55:00"
+            "checked_at": "2026-06-19 14:55:06"
         },
         {
             "domain": "minimasihdisini.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-19 14:55:00"
+            "checked_at": "2026-06-19 14:55:06"
         },
         {
             "domain": "minipasticuan.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-19 14:55:00"
+            "checked_at": "2026-06-19 14:55:06"
         },
         {
             "domain": "minipikapika.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-19 14:55:00"
+            "checked_at": "2026-06-19 14:55:06"
         },
         {
             "domain": "minitotobesar.site",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-19 14:55:00"
+            "checked_at": "2026-06-19 14:55:06"
         },
         {
             "domain": "minitotogoku.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-19 14:55:00"
+            "checked_at": "2026-06-19 14:55:06"
         },
         {
             "domain": "minitotosasuke.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-19 14:55:00"
+            "checked_at": "2026-06-19 14:55:06"
         },
         {
             "domain": "rtp.panelgandacuan.com",
             "nawala": false,
             "network": false,
             "status": "NORMAL",
-            "checked_at": "2026-06-19 14:55:00"
+            "checked_at": "2026-06-19 14:55:06"
         }
     ]
 }
